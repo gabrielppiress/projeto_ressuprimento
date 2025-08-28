@@ -1,0 +1,107 @@
+/* ====== CONTAINER LOGIN ====== */
+.login-container {
+    max-width: 380px;
+    margin: 60px auto;
+    padding: 25px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    text-align: left;
+}
+
+/*que bom */
+.login-container h2 {
+    font-size: 20px;
+    margin-bottom: 8px;
+    color: #111;
+}
+
+.login-container p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* ====== FORM LOGIN ====== */
+.login-form input, .cadastro-form input {
+    width: 95%;
+    padding: 12px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+
+.senha-box {
+    position: relative;
+   
+}
+
+.senha-box input {
+    width: 87.4%;
+    padding-right: 40px;
+}
+
+.toggle-senha {
+    position: absolute;
+    right: 10px;
+    top: 30%;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+/* ====== LINKS ====== */
+.link-senha {
+    font-size: 13px;
+    color: #d00;
+    text-decoration: none;
+    float: right;
+    margin-bottom: 15px;
+}
+
+.link-senha:hover {
+    text-decoration: underline;
+}
+
+/* ====== BOTÕES ====== */
+.btn-vermelho {
+    width: 100%;
+    padding: 12px;
+    background: #d00;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+.btn-vermelho:hover {
+    background: #a00;
+}
+
+.btn-branco {
+    width: 100%;
+    padding: 12px;
+    background: white;
+    color: #d00;
+    font-weight: bold;
+    border: 2px solid #d00;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 12px;
+    font-size: 15px;
+}
+
+.btn-branco:hover {
+    background: #fbeaea;
+}
+
+/* ====== MENSAGENS ====== */
+.mensagem {
+    margin-top: 15px;
+    font-size: 14px;
+    text-align: center;
+}
